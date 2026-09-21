@@ -1,0 +1,252 @@
+body{
+    font-family: 'Arial', Helvetica, sans-serif;
+    margin: 0 auto;
+    background-color: rgb(250, 239, 246);
+}
+
+/* tête de page */
+
+header.header{
+    display: flex;
+    align-items: center;
+}
+header.header img{
+    width: 150px;
+}
+section.top-page{
+    background-image: url('imgs/shoe24.jpeg');
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("imgs/shoe24.jpeg");
+    background-size: cover;
+    height: 80vh;
+    padding: 35px;
+}
+
+/* page de bienvenu */
+
+.landing-page{
+    padding: 20px 50px;
+}
+.big-title{
+    color: rgb(1, 1, 125);
+    font-size: 90px;
+    font-weight: 600;
+    width: 80%;
+}
+.scroll-down{
+    text-decoration: none;
+    position: absolute;
+    font-weight: 160px;
+    bottom: 65px;
+}
+
+/* menu de navigation */
+
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 700px;
+    margin-right: 30px;
+}
+nav.nav li{
+    color: rgb(10, 6, 130);
+    padding-left: 50px;
+}
+
+nav.nav li a{
+    text-decoration: none;
+}
+
+/* services */
+
+.services{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+.service-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.delivery-icon{
+    font-size: 50px;
+    color: rgb(3, 3, 116);
+}
+
+.service-details{
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* best sells */
+
+.section-title{
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+}
+
+.section-title::before{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.best-items{
+    margin: 70px;
+}
+.best-shoes{
+    background-color: rgb(249, 119, 189);
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shoe-box{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    min-width: 250px;
+    height: 290px;
+    flex: 1;
+    margin: 5px;
+}
+.shoe1{
+   background-image: url('imgs/shoe5.jpeg'); 
+}
+.shoe2{
+   background-image: url('imgs/shoe.jpg'); 
+}
+.shoe3{
+   background-image: url('imgs/shoe36.jpeg'); 
+}
+.shoe4{
+   background-image: url('imgs/shoe29.jpeg'); 
+}
+.shoe-details{
+    position: absolute;
+    width: 86%;
+    bottom: 0;
+    background-color: #eaeadc;
+    padding: 5px 20px;
+}
+.shoe-name{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 3px;
+}
+.shoe-price{
+    color: rgb(250, 88, 76);
+    line-height: 3px;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+/* nos chaussures */
+
+.all-shoes{
+    margin: 50px;
+}
+
+.our-shoes{
+    background-color: rgb(249, 119, 119);
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shoe-grid1{
+    background-image: url('imgs/shoe39.jpeg');
+}
+.shoe-grid2{
+    background-image: url('imgs/shoewomen1.jpeg');
+}
+.shoe-grid3{
+    background-image: url('imgs/shoec.jpg');
+}
+.shoe-grid4{
+    background-image: url('imgs/shoepay2.jpg');
+}
+.shoe-grid5{
+    background-image: url('imgs/shoepay1.jpg');
+}
+.shoe-grid6{
+    background-image: url('imgs/shoepay3.jpg');
+}
+.shoe-grid7{
+    background-image: url('imgs/shoeb.jpg');
+}
+.shoe-grid8{
+    background-image: url('imgs/shoe32.jpeg');
+}
+
+/* nos nouveautés*/
+
+.our-shoe{
+    margin: 50px;
+}
+.new-shoes{
+    background-color: rgb(203, 200, 200);
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.new-shoes1{
+     background-image: url('imgs/shoe027.jpeg');
+}
+.new-shoes2{
+     background-image: url('imgs/shoen.jpg');
+}
+.new-shoes3{
+     background-image: url('imgs/shoe25.jpeg');
+}
+.new-shoes4{
+     background-image: url('imgs/shoe26.jpeg');
+}
+.new-shoes5{
+     background-image: url('imgs/shoe35.jpeg');
+}
+.new-shoes6{
+     background-image: url('imgs/shoe36.jpeg');
+}
+.new-shoes7{
+     background-image: url('imgs/shoewomen2.jpeg');
+}
+.new-shoes8{
+     background-image: url('imgs/shoewomen3.jpeg');
+}
+.new-shoes9{
+     background-image: url('imgs/shoewomen4.jpeg');
+}
+.new-shoes10{
+     background-image: url('imgs/shoe34.jpeg');
+}
+.new-shoes11{
+     background-image: url('imgs/shoe2.jpeg');
+}
+.new-shoes12{
+     background-image: url('imgs/shoex.jpg');
+}
+/*pied de page*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(254, 254, 253);
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+footer a.cgv{
+    text-decoration: none;
+    color: black;
+    padding-right: 30px;
+}
+footer p{
+    padding-left: 30px;
+    color: black;
+}
